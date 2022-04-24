@@ -1,0 +1,25 @@
+{
+    "name": "vitor/api-produto",
+    "description": "Api produtos",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Vitor\\ApiProduto\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "VL0511",
+            "email": "xheroxgamer10@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/psr7": "^1.5",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^1",
+        "laminas/laminas-diactoros": "^2.9",
+        "sapphirecat/slim4-http-interop-adapter": "^1.0"
+    }
+}
