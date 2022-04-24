@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "8fbb3432-d232-4c57-a071-13b8a1f5738c",
+		"name": "MyApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List Services",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/services/services-name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"services",
+						"services-name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find a Service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/services/services-name/Teste",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"services",
+						"services-name",
+						"Teste"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a Service",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/services/services-name/add/Teste4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"services",
+						"services-name",
+						"add",
+						"Teste4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a service",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/services/services-name/update/Teste3/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"services",
+						"services-name",
+						"update",
+						"Teste3",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a service",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/services/services-name/delete/Teste3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"services",
+						"services-name",
+						"delete",
+						"Teste3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste Api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000"
+				}
+			},
+			"response": []
+		}
+	]
+}
